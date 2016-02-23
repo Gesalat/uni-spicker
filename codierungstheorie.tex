@@ -154,7 +154,7 @@ In der Codierungstheorie geht es darum, Daten mit einer Kanalcodierung so zu üb
 
 \begin{defn}
   Die \emph{Informationsrate} von $C$ ist dann $R(C) \coloneqq \nicefrac{\log_q(M)}{n}$.
-  Falls $\abs{M} = q^k$, dann ist $R(C) = k/n$.
+  Falls $\abs{C} = M = q^k$, dann ist $R(C) = k/n$.
 \end{defn}
 
 \begin{bem}
@@ -189,7 +189,7 @@ In der Codierungstheorie geht es darum, Daten mit einer Kanalcodierung so zu üb
     \item Man nennt einen Kanal einen \emph{$q$-nären symmetrischen Kanal}, falls ein $p \in \R$ mit $0 < p < (q-1)/q$ existiert, sodass
     \[ \CP{\text{$\beta$ empfangen}}{\text{$\alpha$ gesendet}} = \nicefrac{p}{q-1} \]
     für alle $\beta \neq \alpha \in Q$, also $\CP{\text{$\alpha$ empfangen}}{\text{$\alpha$ gesendet}} = 1-p$.
-    \item Ein Kanal heißt \emph{gedächtnislos}, falls für alle $x, y \in Q^n$ gilt:
+    \item Ein Kanal heißt \emph{gedächtnislos}, falls für alle $y \in Q^n$ gilt:
     \[ \CP{\text{$y$ empfangen}}{\text{$c$ gesendet}} = \prod_{i=1}^n \CP{\text{$y_i$ empfangen}}{\text{$c_i$ gesendet}} \]
   \end{itemize}
 \end{defn}
